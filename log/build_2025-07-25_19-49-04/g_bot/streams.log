@@ -1,0 +1,64 @@
+[0.019s] Invoking command in '/home/stathis/dev_ws/src/g_bot/build/g_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/stathis/dev_ws/src/g_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/stathis/dev_ws/src/g_bot/install/g_bot
+[0.150s] -- The C compiler identification is GNU 13.3.0
+[0.382s] -- The CXX compiler identification is GNU 13.3.0
+[0.444s] -- Detecting C compiler ABI info
+[0.632s] -- Detecting C compiler ABI info - done
+[0.678s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.691s] -- Detecting C compile features
+[0.692s] -- Detecting C compile features - done
+[0.716s] -- Detecting CXX compiler ABI info
+[0.986s] -- Detecting CXX compiler ABI info - done
+[1.003s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.004s] -- Detecting CXX compile features
+[1.005s] -- Detecting CXX compile features - done
+[1.053s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.346s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.472s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.592s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.785s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.786s] -- Configured cppcheck include dirs: 
+[1.786s] -- Configured cppcheck exclude dirs and/or files: 
+[1.788s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.788s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.791s] -- Added test 'lint_cmake' to check CMake code style
+[1.794s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.805s] -- Added test 'uncrustify' to check C / C++ code style
+[1.805s] -- Configured uncrustify additional arguments: 
+[1.807s] -- Added test 'xmllint' to check XML markup files
+[1.811s] -- Configuring done (1.8s)
+[1.815s] -- Generating done (0.0s)
+[1.817s] -- Build files have been written to: /home/stathis/dev_ws/src/g_bot/build/g_bot
+[1.826s] Invoked command in '/home/stathis/dev_ws/src/g_bot/build/g_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/stathis/dev_ws/src/g_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/stathis/dev_ws/src/g_bot/install/g_bot
+[1.830s] Invoking command in '/home/stathis/dev_ws/src/g_bot/build/g_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/stathis/dev_ws/src/g_bot/build/g_bot -- -j8 -l8
+[1.920s] Invoked command in '/home/stathis/dev_ws/src/g_bot/build/g_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/stathis/dev_ws/src/g_bot/build/g_bot -- -j8 -l8
+[1.939s] Invoking command in '/home/stathis/dev_ws/src/g_bot/build/g_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/stathis/dev_ws/src/g_bot/build/g_bot
+[1.962s] -- Install configuration: ""
+[1.962s] -- Execute custom install script
+[1.963s] -- Symlinking: /home/stathis/dev_ws/src/g_bot/install/g_bot/share/g_bot/description/camera.xacro
+[1.986s] -- Symlinking: /home/stathis/dev_ws/src/g_bot/install/g_bot/share/g_bot/description/imu.xacro
+[2.000s] -- Symlinking: /home/stathis/dev_ws/src/g_bot/install/g_bot/share/g_bot/description/inertial_macros.xacro
+[2.023s] -- Symlinking: /home/stathis/dev_ws/src/g_bot/install/g_bot/share/g_bot/description/lidar.xacro
+[2.038s] -- Symlinking: /home/stathis/dev_ws/src/g_bot/install/g_bot/share/g_bot/description/robot.core.xacro
+[2.053s] -- Symlinking: /home/stathis/dev_ws/src/g_bot/install/g_bot/share/g_bot/description/robot.gazebo.xacro
+[2.068s] -- Symlinking: /home/stathis/dev_ws/src/g_bot/install/g_bot/share/g_bot/description/robot.ros2_control.xacro
+[2.084s] -- Symlinking: /home/stathis/dev_ws/src/g_bot/install/g_bot/share/g_bot/description/robot.urdf.xacro
+[2.099s] -- Symlinking: /home/stathis/dev_ws/src/g_bot/install/g_bot/share/g_bot/description/upbody.xacro
+[2.115s] -- Symlinking: /home/stathis/dev_ws/src/g_bot/install/g_bot/share/g_bot/launch/display.launch.xml
+[2.130s] -- Symlinking: /home/stathis/dev_ws/src/g_bot/install/g_bot/share/g_bot/launch/gazebo.launch.py
+[2.146s] -- Symlinking: /home/stathis/dev_ws/src/g_bot/install/g_bot/share/g_bot/config/main.rviz
+[2.163s] -- Symlinking: /home/stathis/dev_ws/src/g_bot/install/g_bot/share/ament_index/resource_index/package_run_dependencies/g_bot
+[2.180s] -- Symlinking: /home/stathis/dev_ws/src/g_bot/install/g_bot/share/ament_index/resource_index/parent_prefix_path/g_bot
+[2.205s] -- Symlinking: /home/stathis/dev_ws/src/g_bot/install/g_bot/share/g_bot/environment/ament_prefix_path.sh
+[2.220s] -- Symlinking: /home/stathis/dev_ws/src/g_bot/install/g_bot/share/g_bot/environment/ament_prefix_path.dsv
+[2.236s] -- Symlinking: /home/stathis/dev_ws/src/g_bot/install/g_bot/share/g_bot/environment/path.sh
+[2.252s] -- Symlinking: /home/stathis/dev_ws/src/g_bot/install/g_bot/share/g_bot/environment/path.dsv
+[2.268s] -- Symlinking: /home/stathis/dev_ws/src/g_bot/install/g_bot/share/g_bot/local_setup.bash
+[2.284s] -- Symlinking: /home/stathis/dev_ws/src/g_bot/install/g_bot/share/g_bot/local_setup.sh
+[2.299s] -- Symlinking: /home/stathis/dev_ws/src/g_bot/install/g_bot/share/g_bot/local_setup.zsh
+[2.325s] -- Symlinking: /home/stathis/dev_ws/src/g_bot/install/g_bot/share/g_bot/local_setup.dsv
+[2.351s] -- Symlinking: /home/stathis/dev_ws/src/g_bot/install/g_bot/share/g_bot/package.dsv
+[2.374s] -- Symlinking: /home/stathis/dev_ws/src/g_bot/install/g_bot/share/ament_index/resource_index/packages/g_bot
+[2.392s] -- Symlinking: /home/stathis/dev_ws/src/g_bot/install/g_bot/share/g_bot/cmake/g_botConfig.cmake
+[2.417s] -- Symlinking: /home/stathis/dev_ws/src/g_bot/install/g_bot/share/g_bot/cmake/g_botConfig-version.cmake
+[2.433s] -- Symlinking: /home/stathis/dev_ws/src/g_bot/install/g_bot/share/g_bot/package.xml
+[2.459s] Invoked command in '/home/stathis/dev_ws/src/g_bot/build/g_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/stathis/dev_ws/src/g_bot/build/g_bot

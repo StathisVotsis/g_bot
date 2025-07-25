@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" >
+
+    <material name="kok">
+     <color rgba="0 0 0 1"/>
+   </material>
+<!--to imu den fainetai sto display einai sth vasi tou lidar-->
+    <joint name="imu_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="imu_link"/>
+        <origin xyz="0 0 0.051" rpy="0 0 0"/>
+        <axis xyz = "0 0 0" />
+    </joint>
+
+    <link name="imu_link">
+        <visual>
+            <origin xyz="0 0 0"/>
+            <geometry>
+               <box size="0.02 0.015 0.01" />
+            </geometry>
+            <material name="kok"/>
+        </visual>
+        <collision>
+            <geometry>
+               <box size="0.02 0.015 0.01" />
+            </geometry>
+        </collision>
+        <xacro:box_inertia m="0.1" x="0.02" y="0.015" z= "0.01" o_xyz="0.01 0 0.025" o_rpy="0 0 0" />
+        m x y z o_xyz o_rpy
+    </link>
+
+</robot>
