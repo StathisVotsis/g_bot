@@ -8,12 +8,12 @@
             <plugin>gz_ros2_control/GazeboSimSystem</plugin>
           </hardware>
         </xacro:if>        
-        <xacro:unless>
+        <xacro:unless value="$(arg is_sim)">
          <hardware>
             <plugin>g_bot_firmware/GbotInterface</plugin>
             <param name="port">/dev/ttyACM0</param>
          </hardware>
-        </xacro:unless>
+        </xacro:unless>-
         <!-- ros2_control Common Interfaces -->
         <joint name="left_wheel_joint">
             <command_interface name="velocity">
